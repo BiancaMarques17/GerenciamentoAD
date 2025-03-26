@@ -1,0 +1,91 @@
+.container{
+    margin-top: 50px;
+}
+
+h3{
+    padding-top: 15px;
+}
+.lista_view{
+    width: 1350px;
+    height: 400px;
+    border: 1px;
+    border-color: black;
+}
+
+.list-container {
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    width: 300px;
+}
+.buttons {
+    margin-top: 10px;
+}
+button {
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+.form-check-input{
+    border-color: rgb(32, 32, 32);
+}
+.form-label{
+    font-weight: bold;
+}
+
+
+
+
+.search-bar {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+.item-list {
+    list-style: none;
+    padding: 0;
+}
+.item-list li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+.item-list li:hover {
+    background: #ddd;
+}
+.button.close {
+    background: red;
+}
+
+
+/* Estilização do Offcanvas Estático */
+.offcanvas-static {
+    position: fixed;
+    top: 0;
+    right: -1300px; /* Escondido inicialmente */
+    width: 1300px;
+    height: 100%;
+    background: white;
+    box-shadow: -3px 0 5px rgba(0, 0, 0, 0.2);
+    transition: right 0.3s ease-in-out;
+    padding: 20px;
+    overflow-y: auto;
+}
+.offcanvas-static.open {
+    right: 0; /* Abre o offcanvas */
+}
+
+.offcanvas {
+    width: 60% !important; /* Aumenta para 60% da largura da tela */
+    max-width: 1300px; /* Define um limite máximo */
+}
