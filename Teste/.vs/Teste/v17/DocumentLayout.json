@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\bianca.teixeira\\source\\repos\\Teste\\",
+  "WorkspaceRootPath": "C:\\Users\\marcuss\\Downloads\\GerenciamentoAD\\Teste\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C286AF3A-37DA-4101-830E-B3F84D671F0C}|Teste\\Teste.csproj|c:\\users\\bianca.teixeira\\source\\repos\\teste\\teste\\controllers\\activedirectorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C286AF3A-37DA-4101-830E-B3F84D671F0C}|Teste\\Teste.csproj|c:\\users\\marcuss\\downloads\\gerenciamentoad\\teste\\teste\\controllers\\activedirectorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C286AF3A-37DA-4101-830E-B3F84D671F0C}|Teste\\Teste.csproj|solutionrelative:teste\\controllers\\activedirectorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C286AF3A-37DA-4101-830E-B3F84D671F0C}|Teste\\Teste.csproj|c:\\users\\bianca.teixeira\\source\\repos\\teste\\teste\\configuration\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C286AF3A-37DA-4101-830E-B3F84D671F0C}|Teste\\Teste.csproj|solutionrelative:teste\\configuration\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{C286AF3A-37DA-4101-830E-B3F84D671F0C}|Teste\\Teste.csproj|c:\\users\\marcuss\\downloads\\gerenciamentoad\\teste\\teste\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C286AF3A-37DA-4101-830E-B3F84D671F0C}|Teste\\Teste.csproj|solutionrelative:teste\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C286AF3A-37DA-4101-830E-B3F84D671F0C}|Teste\\Teste.csproj|c:\\users\\bianca.teixeira\\source\\repos\\teste\\teste\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C286AF3A-37DA-4101-830E-B3F84D671F0C}|Teste\\Teste.csproj|c:\\users\\marcuss\\downloads\\gerenciamentoad\\teste\\teste\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C286AF3A-37DA-4101-830E-B3F84D671F0C}|Teste\\Teste.csproj|solutionrelative:teste\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C286AF3A-37DA-4101-830E-B3F84D671F0C}|Teste\\Teste.csproj|c:\\users\\bianca.teixeira\\source\\repos\\teste\\teste\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C286AF3A-37DA-4101-830E-B3F84D671F0C}|Teste\\Teste.csproj|solutionrelative:teste\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C286AF3A-37DA-4101-830E-B3F84D671F0C}|Teste\\Teste.csproj|c:\\users\\marcuss\\downloads\\gerenciamentoad\\teste\\teste\\configuration\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C286AF3A-37DA-4101-830E-B3F84D671F0C}|Teste\\Teste.csproj|solutionrelative:teste\\configuration\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,15 +26,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\bianca.teixeira\\source\\repos\\Teste\\Teste\\Configuration\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\marcuss\\Downloads\\GerenciamentoAD\\Teste\\Teste\\Configuration\\appsettings.json",
               "RelativeDocumentMoniker": "Teste\\Configuration\\appsettings.json",
-              "ToolTip": "C:\\Users\\bianca.teixeira\\source\\repos\\Teste\\Teste\\Configuration\\appsettings.json",
+              "ToolTip": "C:\\Users\\marcuss\\Downloads\\GerenciamentoAD\\Teste\\Teste\\Configuration\\appsettings.json",
               "RelativeToolTip": "Teste\\Configuration\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -42,37 +46,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\bianca.teixeira\\source\\repos\\Teste\\Teste\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\marcuss\\Downloads\\GerenciamentoAD\\Teste\\Teste\\Program.cs",
               "RelativeDocumentMoniker": "Teste\\Program.cs",
-              "ToolTip": "C:\\Users\\bianca.teixeira\\source\\repos\\Teste\\Teste\\Program.cs",
+              "ToolTip": "C:\\Users\\marcuss\\Downloads\\GerenciamentoAD\\Teste\\Teste\\Program.cs",
               "RelativeToolTip": "Teste\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACgAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T16:03:44.883Z"
+              "WhenOpened": "2025-03-06T16:03:44.883Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\Users\\bianca.teixeira\\source\\repos\\Teste\\Teste\\Models\\UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\marcuss\\Downloads\\GerenciamentoAD\\Teste\\Teste\\Models\\UserDto.cs",
               "RelativeDocumentMoniker": "Teste\\Models\\UserDto.cs",
-              "ToolTip": "C:\\Users\\bianca.teixeira\\source\\repos\\Teste\\Teste\\Models\\UserDto.cs",
+              "ToolTip": "C:\\Users\\marcuss\\Downloads\\GerenciamentoAD\\Teste\\Teste\\Models\\UserDto.cs",
               "RelativeToolTip": "Teste\\Models\\UserDto.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAqwBEAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T16:03:30.445Z"
+              "WhenOpened": "2025-03-06T16:03:30.445Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ActiveDirectoryController.cs",
-              "DocumentMoniker": "C:\\Users\\bianca.teixeira\\source\\repos\\Teste\\Teste\\Controllers\\ActiveDirectoryController.cs",
+              "DocumentMoniker": "C:\\Users\\marcuss\\Downloads\\GerenciamentoAD\\Teste\\Teste\\Controllers\\ActiveDirectoryController.cs",
               "RelativeDocumentMoniker": "Teste\\Controllers\\ActiveDirectoryController.cs",
-              "ToolTip": "C:\\Users\\bianca.teixeira\\source\\repos\\Teste\\Teste\\Controllers\\ActiveDirectoryController.cs",
+              "ToolTip": "C:\\Users\\marcuss\\Downloads\\GerenciamentoAD\\Teste\\Teste\\Controllers\\ActiveDirectoryController.cs",
               "RelativeToolTip": "Teste\\Controllers\\ActiveDirectoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAowHkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T17:46:39.693Z",
               "EditorCaption": ""

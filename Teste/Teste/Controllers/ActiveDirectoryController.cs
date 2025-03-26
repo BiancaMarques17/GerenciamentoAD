@@ -96,7 +96,7 @@ public class ActiveDirectoryController : ControllerBase
                 newUser.Properties["userPrincipalName"].Value = $"{user.Login}@prefeitura.local";
                 newUser.Properties["CPF"].Value = user.CPF; // Atributo personalizado para CPF
 
-                
+                ////
                 int userAccountControl = 0x0200; // Criar usuário ativado
 
                 //if (user.AlterarSenha) userAccountControl |= 0x800000; //Não está funcionando
@@ -104,7 +104,7 @@ public class ActiveDirectoryController : ControllerBase
                 if (user.ContaDesabilitada) userAccountControl |= 0x0002; //Está funcionando
                 newUser.Properties["userAccountControl"].Value = userAccountControl;
 
-
+//////
                 var Password = "Betim1234";
 
                 // Agora definir a senha
@@ -116,7 +116,7 @@ public class ActiveDirectoryController : ControllerBase
                 newUser.Properties["unicodePwd"].Value = passwordBytes;
                 newUser.CommitChanges();
 
-
+                ////
                 if (user.DataExpiracao != 0) // Não está funcionando
                 {
                     //Função para definir a data em que a conta do usuário expira
@@ -129,7 +129,7 @@ public class ActiveDirectoryController : ControllerBase
                     newUser.Properties["accountExpires"].Value = 0; // Nunca expira
                 }
 
-
+/////
                 // Adicionar usuário aos grupos
                 foreach (string grupoDN in user.Grupos) // Agora já vem o caminho completo do grupo
                 {
@@ -153,7 +153,7 @@ public class ActiveDirectoryController : ControllerBase
         }
 
     }
-
+    ///
     [DllImport("Netapi32.dll", SetLastError = true)]
     public static extern int NetUserSetInfo(
     string servername,
@@ -183,7 +183,7 @@ public class ActiveDirectoryController : ControllerBase
         }
     }
 
-
+    ///
 
     [HttpGet("organizational-units")]
     public IActionResult GetOrganizationalUnits()

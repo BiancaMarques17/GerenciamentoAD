@@ -1447,23 +1447,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bianca.teixeira\\.nuget\\packages\\": {},
+    "C:\\Users\\marcuss\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bianca.teixeira\\source\\repos\\Teste\\Teste\\Teste.csproj",
+      "projectUniqueName": "C:\\Users\\marcuss\\Downloads\\GerenciamentoAD\\Teste\\Teste\\Teste.csproj",
       "projectName": "Teste",
-      "projectPath": "C:\\Users\\bianca.teixeira\\source\\repos\\Teste\\Teste\\Teste.csproj",
-      "packagesPath": "C:\\Users\\bianca.teixeira\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bianca.teixeira\\source\\repos\\Teste\\Teste\\obj\\",
+      "projectPath": "C:\\Users\\marcuss\\Downloads\\GerenciamentoAD\\Teste\\Teste\\Teste.csproj",
+      "packagesPath": "C:\\Users\\marcuss\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\marcuss\\Downloads\\GerenciamentoAD\\Teste\\Teste\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\bianca.teixeira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\marcuss\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1536,7 +1536,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
