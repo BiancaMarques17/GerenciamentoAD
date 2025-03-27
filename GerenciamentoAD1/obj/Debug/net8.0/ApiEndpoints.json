@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "GerenciamentoAD1.Controllers.ActiveDirectoryController",
+    "Method": "CreateUser",
+    "RelativePath": "api/ad/create-user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "GerenciamentoAD1.Models.UserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GerenciamentoAD1.Controllers.ActiveDirectoryController",
+    "Method": "ListGroups",
+    "RelativePath": "api/ad/list-groups",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GerenciamentoAD1.Controllers.ActiveDirectoryController",
+    "Method": "GetOrganizationalUnits",
+    "RelativePath": "api/ad/organizational-units",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
